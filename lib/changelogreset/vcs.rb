@@ -17,7 +17,7 @@ module ChangelogReset
     def unreleased_entry
       file = get_file_contents(@changelog_name)
       file['content'] = add_unreleased_entry(file['content'])
-      update_file_contents(@changelog_name, "Set Changelog to ## Unreleased", file['sha'], file['content'])
+      update_file_contents(@changelog_name, 'Set Changelog to ## Unreleased', file['sha'], file['content'])
     end
 
     private

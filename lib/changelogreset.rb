@@ -20,6 +20,7 @@ post '/handler' do
     vcs = ChangelogReset::Vcs.new(token: ENV['GITHUB_TOKEN'], repository: payload['repository'])
     response = vcs.unreleased_entry
     return halt 500, 'Error updating file, see server logs for details' if response == 'Error'
+
     return response
   end
 end
