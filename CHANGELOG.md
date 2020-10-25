@@ -2,9 +2,9 @@
 
 This file is used to list changes made in changelog reset.
 
-## Unreleased
+## 1.0.0 - *2020-10-25*
 
 - Initial creation
 - Reads the changelog and searches for a header string of `##`
-  - if found it will insert `## Unreleased` above the header string
-  - if not found it will insert `## Unreleased` at the end of the file
+  - if found it will insert `## 1.0.0 - *2020-10-25*` above the header string
+  - if not found it will insert `## 1.0.0 - *2020-10-25*` at the end of the file
