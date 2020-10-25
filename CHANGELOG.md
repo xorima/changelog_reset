@@ -2,6 +2,10 @@
 
 This file is used to list changes made in changelog reset.
 
+## Unreleased
+
+- Fixed bug with startup logic
+
 ## 1.0.0 - *2020-10-25*
 
 - Initial creation
