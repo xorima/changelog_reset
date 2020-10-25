@@ -1,6 +1,6 @@
 # Changelog Reset
 
-Resets a changelog back to the ## Unreleased heading from a github release webhook event
+Resets a changelog back to the `## Unreleased` heading from a github release webhook event
 
 ## Configuration
 
