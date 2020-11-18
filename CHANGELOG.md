@@ -2,6 +2,10 @@
 
 This file is used to list changes made in changelog reset.
 
+## Unreleased
+
+- Fixed bug with dockerhub push due to set-env deprecation
+
 ## 1.0.1 - *2020-10-25*
 
 - Fixed bug with startup logic
